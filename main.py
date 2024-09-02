@@ -215,7 +215,7 @@ async def on_message(message):
         print(word)
 
       
-        await asyncio.sleep(10)
+        await asyncio.sleep(180)
         if players or impostor:
             await votacao()  
             if not votacao_iniciada:  
